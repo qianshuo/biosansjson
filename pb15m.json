@@ -1,0 +1,71 @@
+{
+    "instrumentName": "CG3",                                        
+    "iptsNumber": "24740",                                          
+    "runNumber": "5151",                                            
+    "thickness": "0.1",                                             
+    "outputFilename": "ua_5151_pb_3",
+    "transmission": {
+        "runNumber": "5151",                                       
+        "value": ""                                                
+    },
+    "background": {
+        "runNumber": "5159",                                       
+        "transmission": {
+            "runNumber": "5159",                                    
+            "value": ""                                             
+        }
+    },
+    "beamCenter": {
+        "runNumber": "1322"                                         
+    },
+    "emptyTrans": {
+        "runNumber": "5150"                                         
+    },
+    "configuration": {
+        "outputDir": "/HFIR/CG3/shared/UserAcceptance/shuo_matt/test_1/",      
+        "sampleApertureSize":"14",                                  
+        "maskFileName": "",                                         
+        "useMaskFileName": false,                                   
+        "useDefaultMask": true,                                    
+        "useBlockedBeam": false,                                    
+        "BlockBeamFileName":"",                                     
+        "darkMainFileName": "CG3_1414.nxs.h5", 
+        "darkWingFileName": "CG3_1414.nxs.h5", 
+        "useDarkFileName": true,                                    
+        "sensitivityMainFileName": "/HFIR/CG3/shared/data/qs486/sens_f4829main7m485_TDC_SAC.h5",
+        "sensitivityWingFileName": "/HFIR/CG3/shared/Cycle486/sens_f4843w1p4_TDC_SAC.h5",  
+        "useSensitivityFileName": true,                             
+        "UseBarScan": true,                                         
+        "BarScanMainFileName":"",                                   
+        "BarScanWingFileName":"",                                   
+        "absoluteScaleMethod":"standard", 
+        "DBScalingBeamRadius": "",                                 
+        "StandardAbsoluteScale": "0.01799e-8",                               
+        "normalization": "Monitor",                                
+        "sampleOffset": "",                                        
+        "useSampleOffset": false,                                   
+        "useSolidAngleCorrection": true,                            
+        "useDetectorTubeType": true,                                
+        "useThetaDepTransCorrection": true,                                
+        "mmRadiusForTransmission": "22",
+        "numMainQxQyBins": 100,                                        
+        "numWingQxQyBins": 80,                                        
+        "1DQbinType": "scalar",   
+        "QbinType": "log",                                       
+        "EvenDecades": true, 
+        "WedgeMinAngles": "-30,60" ,                               
+        "WedgeMaxAngles": "30, 120",                            
+        "numMainQBins": 33,                                       
+        "numWingQBins": 33,                                      
+        "AnnularAngleBin": "1", 
+        "AnnularQmin": "",                                        
+        "AnnularQmax": "",                                          
+        "useErrorWeighting": false,                                  
+        "useMaskBackTubes": false,                                 
+        "wavelength": "",                                           
+        "wavelengthSpread": "",                                     
+        "overlapStitchQmin": 0.03,                                  
+        "overlapStitchQmax": 0.05                                 
+    }
+}
+
